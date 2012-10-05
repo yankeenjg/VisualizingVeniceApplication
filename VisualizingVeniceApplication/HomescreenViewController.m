@@ -8,16 +8,21 @@
 
 #import "HomescreenViewController.h"
 
-@interface ViewController ()
+@interface HomescreenViewController ()
 
 @end
 
-@implementation ViewController
+@implementation HomescreenViewController
+//@synthesize scrollView;
+//@synthesize view1;
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+- (void)viewDidLoad {
+    /*scrollView.contentSize=CGSizeMake(250,500);
+    [self.scrollView addSubview:view1];
+    [super viewDidLoad];*/
+    
+	
+   
 }
 
 - (void)didReceiveMemoryWarning
