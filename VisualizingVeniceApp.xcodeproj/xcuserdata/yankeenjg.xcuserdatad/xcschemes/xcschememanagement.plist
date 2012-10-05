@@ -9,6 +9,16 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>VisualizingVeniceApplication.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>k.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -18,6 +28,26 @@
 			<true/>
 		</dict>
 		<key>6CF0CFBA161EA6E70071C246</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6CF0CFDC161EAFB20071C246</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6CF0D001161EAFB20071C246</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6CF0D024161EB53C0071C246</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6CF0D049161EB53C0071C246</key>
 		<dict>
 			<key>primary</key>
 			<true/>
