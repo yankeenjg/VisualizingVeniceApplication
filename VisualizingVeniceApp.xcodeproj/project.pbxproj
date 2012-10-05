@@ -7,72 +7,82 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6CF0CF9F161EA6E70071C246 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CF0CF9E161EA6E70071C246 /* UIKit.framework */; };
-		6CF0CFA1161EA6E70071C246 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CF0CFA0161EA6E70071C246 /* Foundation.framework */; };
-		6CF0CFA3161EA6E70071C246 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CF0CFA2161EA6E70071C246 /* CoreGraphics.framework */; };
-		6CF0CFA9161EA6E70071C246 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CF0CFA7161EA6E70071C246 /* InfoPlist.strings */; };
-		6CF0CFAB161EA6E70071C246 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF0CFAA161EA6E70071C246 /* main.m */; };
-		6CF0CFAF161EA6E70071C246 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF0CFAE161EA6E70071C246 /* AppDelegate.m */; };
-		6CF0CFB1161EA6E70071C246 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CF0CFB0161EA6E70071C246 /* Default.png */; };
-		6CF0CFB3161EA6E70071C246 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CF0CFB2161EA6E70071C246 /* Default@2x.png */; };
-		6CF0CFB5161EA6E70071C246 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CF0CFB4161EA6E70071C246 /* Default-568h@2x.png */; };
-		6CF0CFBD161EA6E70071C246 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CF0CFBC161EA6E70071C246 /* SenTestingKit.framework */; };
-		6CF0CFBE161EA6E70071C246 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CF0CF9E161EA6E70071C246 /* UIKit.framework */; };
-		6CF0CFBF161EA6E70071C246 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CF0CFA0161EA6E70071C246 /* Foundation.framework */; };
-		6CF0CFC7161EA6E70071C246 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CF0CFC5161EA6E70071C246 /* InfoPlist.strings */; };
-		6CF0CFCA161EA6E70071C246 /* VisualizingVeniceAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF0CFC9161EA6E70071C246 /* VisualizingVeniceAppTests.m */; };
+		6CF0CFDF161EAFB20071C246 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CF0CF9E161EA6E70071C246 /* UIKit.framework */; };
+		6CF0CFE0161EAFB20071C246 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CF0CFA0161EA6E70071C246 /* Foundation.framework */; };
+		6CF0CFE1161EAFB20071C246 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CF0CFA2161EA6E70071C246 /* CoreGraphics.framework */; };
+		6CF0CFE7161EAFB20071C246 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CF0CFE5161EAFB20071C246 /* InfoPlist.strings */; };
+		6CF0CFE9161EAFB20071C246 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF0CFE8161EAFB20071C246 /* main.m */; };
+		6CF0CFED161EAFB20071C246 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF0CFEC161EAFB20071C246 /* AppDelegate.m */; };
+		6CF0CFEF161EAFB20071C246 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CF0CFEE161EAFB20071C246 /* Default.png */; };
+		6CF0CFF1161EAFB20071C246 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CF0CFF0161EAFB20071C246 /* Default@2x.png */; };
+		6CF0CFF3161EAFB20071C246 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CF0CFF2161EAFB20071C246 /* Default-568h@2x.png */; };
+		6CF0CFF6161EAFB20071C246 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CF0CFF4161EAFB20071C246 /* MainStoryboard_iPhone.storyboard */; };
+		6CF0CFF9161EAFB20071C246 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CF0CFF7161EAFB20071C246 /* MainStoryboard_iPad.storyboard */; };
+		6CF0CFFC161EAFB20071C246 /* HomescreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF0CFFB161EAFB20071C246 /* HomescreenViewController.m */; };
+		6CF0D003161EAFB20071C246 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CF0CFBC161EA6E70071C246 /* SenTestingKit.framework */; };
+		6CF0D004161EAFB20071C246 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CF0CF9E161EA6E70071C246 /* UIKit.framework */; };
+		6CF0D005161EAFB20071C246 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CF0CFA0161EA6E70071C246 /* Foundation.framework */; };
+		6CF0D00D161EAFB20071C246 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CF0D00B161EAFB20071C246 /* InfoPlist.strings */; };
+		6CF0D010161EAFB20071C246 /* VisualizingVeniceApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF0D00F161EAFB20071C246 /* VisualizingVeniceApplicationTests.m */; };
+		6CF0D020161EB4920071C246 /* IntermediateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF0D01F161EB4920071C246 /* IntermediateViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6CF0CFC0161EA6E70071C246 /* PBXContainerItemProxy */ = {
+		6CF0D006161EAFB20071C246 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6CF0CF91161EA6E70071C246 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6CF0CF99161EA6E70071C246;
-			remoteInfo = VisualizingVeniceApp;
+			remoteGlobalIDString = 6CF0CFDC161EAFB20071C246;
+			remoteInfo = VisualizingVeniceApplication;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6CF0CF9A161EA6E70071C246 /* VisualizingVeniceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisualizingVeniceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CF0CF9E161EA6E70071C246 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6CF0CFA0161EA6E70071C246 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6CF0CFA2161EA6E70071C246 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6CF0CFA6161EA6E70071C246 /* VisualizingVeniceApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VisualizingVeniceApp-Info.plist"; sourceTree = "<group>"; };
-		6CF0CFA8161EA6E70071C246 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6CF0CFAA161EA6E70071C246 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6CF0CFAC161EA6E70071C246 /* VisualizingVeniceApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VisualizingVeniceApp-Prefix.pch"; sourceTree = "<group>"; };
-		6CF0CFAD161EA6E70071C246 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		6CF0CFAE161EA6E70071C246 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6CF0CFB0161EA6E70071C246 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		6CF0CFB2161EA6E70071C246 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		6CF0CFB4161EA6E70071C246 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		6CF0CFBB161EA6E70071C246 /* VisualizingVeniceAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisualizingVeniceAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CF0CFBC161EA6E70071C246 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		6CF0CFC4161EA6E70071C246 /* VisualizingVeniceAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VisualizingVeniceAppTests-Info.plist"; sourceTree = "<group>"; };
-		6CF0CFC6161EA6E70071C246 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6CF0CFC8161EA6E70071C246 /* VisualizingVeniceAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VisualizingVeniceAppTests.h; sourceTree = "<group>"; };
-		6CF0CFC9161EA6E70071C246 /* VisualizingVeniceAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VisualizingVeniceAppTests.m; sourceTree = "<group>"; };
+		6CF0CFDD161EAFB20071C246 /* VisualizingVeniceApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisualizingVeniceApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CF0CFE4161EAFB20071C246 /* VisualizingVeniceApplication-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VisualizingVeniceApplication-Info.plist"; sourceTree = "<group>"; };
+		6CF0CFE6161EAFB20071C246 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6CF0CFE8161EAFB20071C246 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6CF0CFEA161EAFB20071C246 /* VisualizingVeniceApplication-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VisualizingVeniceApplication-Prefix.pch"; sourceTree = "<group>"; };
+		6CF0CFEB161EAFB20071C246 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6CF0CFEC161EAFB20071C246 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6CF0CFEE161EAFB20071C246 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6CF0CFF0161EAFB20071C246 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		6CF0CFF2161EAFB20071C246 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6CF0CFF5161EAFB20071C246 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		6CF0CFF8161EAFB20071C246 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		6CF0CFFA161EAFB20071C246 /* HomescreenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomescreenViewController.h; sourceTree = "<group>"; };
+		6CF0CFFB161EAFB20071C246 /* HomescreenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomescreenViewController.m; sourceTree = "<group>"; };
+		6CF0D002161EAFB20071C246 /* VisualizingVeniceApplicationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisualizingVeniceApplicationTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CF0D00A161EAFB20071C246 /* VisualizingVeniceApplicationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VisualizingVeniceApplicationTests-Info.plist"; sourceTree = "<group>"; };
+		6CF0D00C161EAFB20071C246 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6CF0D00E161EAFB20071C246 /* VisualizingVeniceApplicationTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VisualizingVeniceApplicationTests.h; sourceTree = "<group>"; };
+		6CF0D00F161EAFB20071C246 /* VisualizingVeniceApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VisualizingVeniceApplicationTests.m; sourceTree = "<group>"; };
+		6CF0D01E161EB4920071C246 /* IntermediateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntermediateViewController.h; sourceTree = "<group>"; };
+		6CF0D01F161EB4920071C246 /* IntermediateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntermediateViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6CF0CF97161EA6E70071C246 /* Frameworks */ = {
+		6CF0CFDA161EAFB20071C246 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CF0CF9F161EA6E70071C246 /* UIKit.framework in Frameworks */,
-				6CF0CFA1161EA6E70071C246 /* Foundation.framework in Frameworks */,
-				6CF0CFA3161EA6E70071C246 /* CoreGraphics.framework in Frameworks */,
+				6CF0CFDF161EAFB20071C246 /* UIKit.framework in Frameworks */,
+				6CF0CFE0161EAFB20071C246 /* Foundation.framework in Frameworks */,
+				6CF0CFE1161EAFB20071C246 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6CF0CFB7161EA6E70071C246 /* Frameworks */ = {
+		6CF0CFFE161EAFB20071C246 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CF0CFBD161EA6E70071C246 /* SenTestingKit.framework in Frameworks */,
-				6CF0CFBE161EA6E70071C246 /* UIKit.framework in Frameworks */,
-				6CF0CFBF161EA6E70071C246 /* Foundation.framework in Frameworks */,
+				6CF0D003161EAFB20071C246 /* SenTestingKit.framework in Frameworks */,
+				6CF0D004161EAFB20071C246 /* UIKit.framework in Frameworks */,
+				6CF0D005161EAFB20071C246 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,8 +92,8 @@
 		6CF0CF8F161EA6E70071C246 = {
 			isa = PBXGroup;
 			children = (
-				6CF0CFA4161EA6E70071C246 /* VisualizingVeniceApp */,
-				6CF0CFC2161EA6E70071C246 /* VisualizingVeniceAppTests */,
+				6CF0CFE2161EAFB20071C246 /* VisualizingVeniceApplication */,
+				6CF0D008161EAFB20071C246 /* VisualizingVeniceApplicationTests */,
 				6CF0CF9D161EA6E70071C246 /* Frameworks */,
 				6CF0CF9B161EA6E70071C246 /* Products */,
 			);
@@ -92,8 +102,8 @@
 		6CF0CF9B161EA6E70071C246 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6CF0CF9A161EA6E70071C246 /* VisualizingVeniceApp.app */,
-				6CF0CFBB161EA6E70071C246 /* VisualizingVeniceAppTests.octest */,
+				6CF0CFDD161EAFB20071C246 /* VisualizingVeniceApplication.app */,
+				6CF0D002161EAFB20071C246 /* VisualizingVeniceApplicationTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,86 +119,101 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6CF0CFA4161EA6E70071C246 /* VisualizingVeniceApp */ = {
+		6CF0CFE2161EAFB20071C246 /* VisualizingVeniceApplication */ = {
 			isa = PBXGroup;
 			children = (
-				6CF0CFAD161EA6E70071C246 /* AppDelegate.h */,
-				6CF0CFAE161EA6E70071C246 /* AppDelegate.m */,
-				6CF0CFA5161EA6E70071C246 /* Supporting Files */,
+				6CF0CFEB161EAFB20071C246 /* AppDelegate.h */,
+				6CF0CFEC161EAFB20071C246 /* AppDelegate.m */,
+				6CF0CFFA161EAFB20071C246 /* HomescreenViewController.h */,
+				6CF0CFFB161EAFB20071C246 /* HomescreenViewController.m */,
+				6CF0D01E161EB4920071C246 /* IntermediateViewController.h */,
+				6CF0D01F161EB4920071C246 /* IntermediateViewController.m */,
+				6CF0D017161EAFE70071C246 /* UserInterfaces */,
+				6CF0CFE3161EAFB20071C246 /* Supporting Files */,
 			);
-			path = VisualizingVeniceApp;
+			path = VisualizingVeniceApplication;
 			sourceTree = "<group>";
 		};
-		6CF0CFA5161EA6E70071C246 /* Supporting Files */ = {
+		6CF0CFE3161EAFB20071C246 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6CF0CFA6161EA6E70071C246 /* VisualizingVeniceApp-Info.plist */,
-				6CF0CFA7161EA6E70071C246 /* InfoPlist.strings */,
-				6CF0CFAA161EA6E70071C246 /* main.m */,
-				6CF0CFAC161EA6E70071C246 /* VisualizingVeniceApp-Prefix.pch */,
-				6CF0CFB0161EA6E70071C246 /* Default.png */,
-				6CF0CFB2161EA6E70071C246 /* Default@2x.png */,
-				6CF0CFB4161EA6E70071C246 /* Default-568h@2x.png */,
+				6CF0CFE4161EAFB20071C246 /* VisualizingVeniceApplication-Info.plist */,
+				6CF0CFE5161EAFB20071C246 /* InfoPlist.strings */,
+				6CF0CFE8161EAFB20071C246 /* main.m */,
+				6CF0CFEA161EAFB20071C246 /* VisualizingVeniceApplication-Prefix.pch */,
+				6CF0CFEE161EAFB20071C246 /* Default.png */,
+				6CF0CFF0161EAFB20071C246 /* Default@2x.png */,
+				6CF0CFF2161EAFB20071C246 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		6CF0CFC2161EA6E70071C246 /* VisualizingVeniceAppTests */ = {
+		6CF0D008161EAFB20071C246 /* VisualizingVeniceApplicationTests */ = {
 			isa = PBXGroup;
 			children = (
-				6CF0CFC8161EA6E70071C246 /* VisualizingVeniceAppTests.h */,
-				6CF0CFC9161EA6E70071C246 /* VisualizingVeniceAppTests.m */,
-				6CF0CFC3161EA6E70071C246 /* Supporting Files */,
+				6CF0D00E161EAFB20071C246 /* VisualizingVeniceApplicationTests.h */,
+				6CF0D00F161EAFB20071C246 /* VisualizingVeniceApplicationTests.m */,
+				6CF0D009161EAFB20071C246 /* Supporting Files */,
 			);
-			path = VisualizingVeniceAppTests;
+			path = VisualizingVeniceApplicationTests;
 			sourceTree = "<group>";
 		};
-		6CF0CFC3161EA6E70071C246 /* Supporting Files */ = {
+		6CF0D009161EAFB20071C246 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6CF0CFC4161EA6E70071C246 /* VisualizingVeniceAppTests-Info.plist */,
-				6CF0CFC5161EA6E70071C246 /* InfoPlist.strings */,
+				6CF0D00A161EAFB20071C246 /* VisualizingVeniceApplicationTests-Info.plist */,
+				6CF0D00B161EAFB20071C246 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6CF0D017161EAFE70071C246 /* UserInterfaces */ = {
+			isa = PBXGroup;
+			children = (
+				6CF0CFF4161EAFB20071C246 /* MainStoryboard_iPhone.storyboard */,
+				6CF0CFF7161EAFB20071C246 /* MainStoryboard_iPad.storyboard */,
+			);
+			name = UserInterfaces;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6CF0CF99161EA6E70071C246 /* VisualizingVeniceApp */ = {
+		6CF0CFDC161EAFB20071C246 /* VisualizingVeniceApplication */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6CF0CFCD161EA6E70071C246 /* Build configuration list for PBXNativeTarget "VisualizingVeniceApp" */;
+			buildConfigurationList = 6CF0D011161EAFB20071C246 /* Build configuration list for PBXNativeTarget "VisualizingVeniceApplication" */;
 			buildPhases = (
-				6CF0CF96161EA6E70071C246 /* Sources */,
-				6CF0CF97161EA6E70071C246 /* Frameworks */,
-				6CF0CF98161EA6E70071C246 /* Resources */,
+				6CF0CFD9161EAFB20071C246 /* Sources */,
+				6CF0CFDA161EAFB20071C246 /* Frameworks */,
+				6CF0CFDB161EAFB20071C246 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = VisualizingVeniceApp;
-			productName = VisualizingVeniceApp;
-			productReference = 6CF0CF9A161EA6E70071C246 /* VisualizingVeniceApp.app */;
+			name = VisualizingVeniceApplication;
+			productName = VisualizingVeniceApplication;
+			productReference = 6CF0CFDD161EAFB20071C246 /* VisualizingVeniceApplication.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6CF0CFBA161EA6E70071C246 /* VisualizingVeniceAppTests */ = {
+		6CF0D001161EAFB20071C246 /* VisualizingVeniceApplicationTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6CF0CFD0161EA6E70071C246 /* Build configuration list for PBXNativeTarget "VisualizingVeniceAppTests" */;
+			buildConfigurationList = 6CF0D014161EAFB20071C246 /* Build configuration list for PBXNativeTarget "VisualizingVeniceApplicationTests" */;
 			buildPhases = (
-				6CF0CFB6161EA6E70071C246 /* Sources */,
-				6CF0CFB7161EA6E70071C246 /* Frameworks */,
-				6CF0CFB8161EA6E70071C246 /* Resources */,
-				6CF0CFB9161EA6E70071C246 /* ShellScript */,
+				6CF0CFFD161EAFB20071C246 /* Sources */,
+				6CF0CFFE161EAFB20071C246 /* Frameworks */,
+				6CF0CFFF161EAFB20071C246 /* Resources */,
+				6CF0D000161EAFB20071C246 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6CF0CFC1161EA6E70071C246 /* PBXTargetDependency */,
+				6CF0D007161EAFB20071C246 /* PBXTargetDependency */,
 			);
-			name = VisualizingVeniceAppTests;
-			productName = VisualizingVeniceAppTests;
-			productReference = 6CF0CFBB161EA6E70071C246 /* VisualizingVeniceAppTests.octest */;
+			name = VisualizingVeniceApplicationTests;
+			productName = VisualizingVeniceApplicationTests;
+			productReference = 6CF0D002161EAFB20071C246 /* VisualizingVeniceApplicationTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -212,36 +237,38 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6CF0CF99161EA6E70071C246 /* VisualizingVeniceApp */,
-				6CF0CFBA161EA6E70071C246 /* VisualizingVeniceAppTests */,
+				6CF0CFDC161EAFB20071C246 /* VisualizingVeniceApplication */,
+				6CF0D001161EAFB20071C246 /* VisualizingVeniceApplicationTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6CF0CF98161EA6E70071C246 /* Resources */ = {
+		6CF0CFDB161EAFB20071C246 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CF0CFA9161EA6E70071C246 /* InfoPlist.strings in Resources */,
-				6CF0CFB1161EA6E70071C246 /* Default.png in Resources */,
-				6CF0CFB3161EA6E70071C246 /* Default@2x.png in Resources */,
-				6CF0CFB5161EA6E70071C246 /* Default-568h@2x.png in Resources */,
+				6CF0CFE7161EAFB20071C246 /* InfoPlist.strings in Resources */,
+				6CF0CFEF161EAFB20071C246 /* Default.png in Resources */,
+				6CF0CFF1161EAFB20071C246 /* Default@2x.png in Resources */,
+				6CF0CFF3161EAFB20071C246 /* Default-568h@2x.png in Resources */,
+				6CF0CFF6161EAFB20071C246 /* MainStoryboard_iPhone.storyboard in Resources */,
+				6CF0CFF9161EAFB20071C246 /* MainStoryboard_iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6CF0CFB8161EA6E70071C246 /* Resources */ = {
+		6CF0CFFF161EAFB20071C246 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CF0CFC7161EA6E70071C246 /* InfoPlist.strings in Resources */,
+				6CF0D00D161EAFB20071C246 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6CF0CFB9161EA6E70071C246 /* ShellScript */ = {
+		6CF0D000161EAFB20071C246 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -257,46 +284,66 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6CF0CF96161EA6E70071C246 /* Sources */ = {
+		6CF0CFD9161EAFB20071C246 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CF0CFAB161EA6E70071C246 /* main.m in Sources */,
-				6CF0CFAF161EA6E70071C246 /* AppDelegate.m in Sources */,
+				6CF0CFE9161EAFB20071C246 /* main.m in Sources */,
+				6CF0CFED161EAFB20071C246 /* AppDelegate.m in Sources */,
+				6CF0CFFC161EAFB20071C246 /* HomescreenViewController.m in Sources */,
+				6CF0D020161EB4920071C246 /* IntermediateViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6CF0CFB6161EA6E70071C246 /* Sources */ = {
+		6CF0CFFD161EAFB20071C246 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CF0CFCA161EA6E70071C246 /* VisualizingVeniceAppTests.m in Sources */,
+				6CF0D010161EAFB20071C246 /* VisualizingVeniceApplicationTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6CF0CFC1161EA6E70071C246 /* PBXTargetDependency */ = {
+		6CF0D007161EAFB20071C246 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6CF0CF99161EA6E70071C246 /* VisualizingVeniceApp */;
-			targetProxy = 6CF0CFC0161EA6E70071C246 /* PBXContainerItemProxy */;
+			target = 6CF0CFDC161EAFB20071C246 /* VisualizingVeniceApplication */;
+			targetProxy = 6CF0D006161EAFB20071C246 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6CF0CFA7161EA6E70071C246 /* InfoPlist.strings */ = {
+		6CF0CFE5161EAFB20071C246 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6CF0CFA8161EA6E70071C246 /* en */,
+				6CF0CFE6161EAFB20071C246 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		6CF0CFC5161EA6E70071C246 /* InfoPlist.strings */ = {
+		6CF0CFF4161EAFB20071C246 /* MainStoryboard_iPhone.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6CF0CFC6161EA6E70071C246 /* en */,
+				6CF0CFF5161EAFB20071C246 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			path = VisualizingVeniceApplication;
+			sourceTree = "<group>";
+		};
+		6CF0CFF7161EAFB20071C246 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CF0CFF8161EAFB20071C246 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			path = VisualizingVeniceApplication;
+			sourceTree = "<group>";
+		};
+		6CF0D00B161EAFB20071C246 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CF0D00C161EAFB20071C246 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -356,56 +403,58 @@
 			};
 			name = Release;
 		};
-		6CF0CFCE161EA6E70071C246 /* Debug */ = {
+		6CF0D012161EAFB20071C246 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "VisualizingVeniceApp/VisualizingVeniceApp-Prefix.pch";
-				INFOPLIST_FILE = "VisualizingVeniceApp/VisualizingVeniceApp-Info.plist";
+				GCC_PREFIX_HEADER = "VisualizingVeniceApplication/VisualizingVeniceApplication-Prefix.pch";
+				INFOPLIST_FILE = "VisualizingVeniceApplication/VisualizingVeniceApplication-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		6CF0CFCF161EA6E70071C246 /* Release */ = {
+		6CF0D013161EAFB20071C246 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "VisualizingVeniceApp/VisualizingVeniceApp-Prefix.pch";
-				INFOPLIST_FILE = "VisualizingVeniceApp/VisualizingVeniceApp-Info.plist";
+				GCC_PREFIX_HEADER = "VisualizingVeniceApplication/VisualizingVeniceApplication-Prefix.pch";
+				INFOPLIST_FILE = "VisualizingVeniceApplication/VisualizingVeniceApplication-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
-		6CF0CFD1161EA6E70071C246 /* Debug */ = {
+		6CF0D015161EAFB20071C246 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VisualizingVeniceApp.app/VisualizingVeniceApp";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VisualizingVeniceApplication.app/VisualizingVeniceApplication";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "VisualizingVeniceApp/VisualizingVeniceApp-Prefix.pch";
-				INFOPLIST_FILE = "VisualizingVeniceAppTests/VisualizingVeniceAppTests-Info.plist";
+				GCC_PREFIX_HEADER = "VisualizingVeniceApplication/VisualizingVeniceApplication-Prefix.pch";
+				INFOPLIST_FILE = "VisualizingVeniceApplicationTests/VisualizingVeniceApplicationTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
-		6CF0CFD2161EA6E70071C246 /* Release */ = {
+		6CF0D016161EAFB20071C246 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VisualizingVeniceApp.app/VisualizingVeniceApp";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VisualizingVeniceApplication.app/VisualizingVeniceApplication";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "VisualizingVeniceApp/VisualizingVeniceApp-Prefix.pch";
-				INFOPLIST_FILE = "VisualizingVeniceAppTests/VisualizingVeniceAppTests-Info.plist";
+				GCC_PREFIX_HEADER = "VisualizingVeniceApplication/VisualizingVeniceApplication-Prefix.pch";
+				INFOPLIST_FILE = "VisualizingVeniceApplicationTests/VisualizingVeniceApplicationTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
@@ -424,19 +473,19 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6CF0CFCD161EA6E70071C246 /* Build configuration list for PBXNativeTarget "VisualizingVeniceApp" */ = {
+		6CF0D011161EAFB20071C246 /* Build configuration list for PBXNativeTarget "VisualizingVeniceApplication" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6CF0CFCE161EA6E70071C246 /* Debug */,
-				6CF0CFCF161EA6E70071C246 /* Release */,
+				6CF0D012161EAFB20071C246 /* Debug */,
+				6CF0D013161EAFB20071C246 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		6CF0CFD0161EA6E70071C246 /* Build configuration list for PBXNativeTarget "VisualizingVeniceAppTests" */ = {
+		6CF0D014161EAFB20071C246 /* Build configuration list for PBXNativeTarget "VisualizingVeniceApplicationTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6CF0CFD1161EA6E70071C246 /* Debug */,
-				6CF0CFD2161EA6E70071C246 /* Release */,
+				6CF0D015161EAFB20071C246 /* Debug */,
+				6CF0D016161EAFB20071C246 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
